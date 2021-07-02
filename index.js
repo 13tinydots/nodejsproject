@@ -1,4 +1,11 @@
-// TODO: Include packages needed for this application
+const inquirer = require('inquirer');
+
+inquirer([
+    {
+        //Title, Description, Table of Contents, Installation, Usage Information, 
+        //License, Contributing Guidelines, Tests, and Questions
+    }
+])
 
 // TODO: Create an array of questions for user input
 const questions = [];
