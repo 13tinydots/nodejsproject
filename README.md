@@ -24,3 +24,5 @@ Contributions
 Testing
 
 For more information contact the author at github.com/13tinydots.
+
+A video explaining this generator is available at: https://www.loom.com/share/2869e7872d8f4b35817b5952c807cbaf
