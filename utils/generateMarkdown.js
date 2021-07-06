@@ -26,17 +26,28 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
 
   let licenseString = renderLicenseSection(data.license)
-  return `# ${data.title}
+  return `${licenseString}
+  # ${data.title} 
 
-And this is another thing that I am writing as if it was a word document
+Table of contents:
 
-next line
+Description:
+Installation
+Usage
+Contributing
+Testing
 
-a bunch of bullshit
+# ${data.description}
 
-${data.description}
+# ${data.installation}
 
-${licenseString}
+# ${data.usage}
+
+# ${data.contributing}
+
+# ${data.test}
+d
+
 `;
 }
 
