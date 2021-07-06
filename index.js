@@ -44,11 +44,8 @@ const questions = [
         message: 'Which license are you offering?',
         choices: ["MIT", "Apache 2.0", "CC0", "Attribution 4.0 International"]
     },
-
-
 ];
 
-// Questions (Includes Github Username and link)
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err=> {
         if(err) throw err
